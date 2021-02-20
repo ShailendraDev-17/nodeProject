@@ -1,0 +1,37 @@
+extends  layouts/mainLayout.pug
+block content 
+    .clearfix
+        main.maincontent(style='margin-top: 131px;')
+            section.loginsec
+        .container
+            .row.justify-content-center
+                .col-12.col-md-7
+                    h2.card-title.mb-4 Account Login
+                    .card.card-signin
+                        .card-body
+                            form.form-signin.row
+                                .form-group.col-lg-6
+                                    label.radio-container.text-uppercase
+                                        | User
+                                        input(type='radio' checked='' name='radio')
+                                        span.checkmark
+                                .form-group.col-lg-6
+                                    label.radio-container.text-uppercase
+                                        | Vendor
+                                        input(type='radio' name='radio')
+                                        span.checkmark
+                                .form-group.mb-4.col-lg-12
+                                    label Email
+                                    input.form-control(type='email')
+                                .form-group.mb-4.col-lg-12
+                                    label Password
+                                    input.form-control(type='password')
+                                .form-group.col-lg-12.mb-4
+                                    button.btn.btn-lg.btnprimary.rounded-50.btn-block.text-uppercase.text-white(type='submit') Sign in
+                            .text-center.text-dark.mb-3
+                                | Don&apos;t have an account? 
+                                a.text-primary(href='register.html')
+                                    u Sign Up
+                            .text-center.text-dark
+                                a.text-dark(href='forget-password.html') Forget Password
+

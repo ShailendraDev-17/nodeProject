@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html class="no-touch">
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Titan Travel</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel='stylesheet' href='css/fullpage.css'>
+    	
+    <!-- Main Css -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- responsive Css -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- icon csss -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="main-header py-3 py-md-0 header-dark fixed-top">
+        <div class="container">
+            <div class="top-bar">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <a class="navbar-brand mr-0 d-lg-none d-block" href="index.html"><img src="images/f-logo.png" alt="" class="img-fluid" /></a>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto align-items-lg-center">
+                            <li class="nav-item px-3"><a href="#" class="nav-link active text-white">Home</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">About Us</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">Packages</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">gtc</a></li>
+                            <li class="nav-item px-3 d-lg-block d-none"><a class="navbar-brand mr-0" href="index.html"><img src="images/logo-icon.png" alt="" class="img-fluid" /></a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">Contact Us</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">How it works</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">Login</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <div class="clearfix"></div>
+    <main class="maincontent" style="margin-top: 131px;">
+        <!-- GTC -->
+        <section class="gtcsec pb-3">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 text-center">
+                        <h3 class="text-uppercase font-weight-bold position-relative heading">
+                            <span class="bg-white mx-auto">Tour Package</span>
+                        </h3>
+                        <p>Highlights Of Your Journey</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-12 col-md-5 mb-4">
+                        <div class="packagelist_image">
+                            <img src="images/about1.png" alt="" class="img-fluid rounded" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 mb-4">
+                        <div class="packagelist_block">
+                            <div class="booknowbtn text-right">
+                                <a href="#" class="btn btnprimary text-uppercase rounded-0">
+                                    <span>Buy Now</span>
+                                </a>
+                            </div>
+                            <h3 class="mb-4">Japan Tour</h3>
+                            <ul class="packagelist list-unstyled d-flex flex-wrap border-bottom-0 mb-0">
+                                <li><i class="fa fa-bed text-primary"></i> <b>Tour Type</b></li>
+                                <li>Vacation Packages</li>
+                                <li><i class="fa fa-dollar text-primary"></i> <b>Price</b></li>
+                                <li>$15</li>
+                                <li><i class="fa fa-calendar text-primary"></i> <b>Expire Date</b></li>
+                                <li>
+                                    <div class="countdown">
+                                        <span id="days"></span><span id="hours"></span><span id="minutes"></span><span id="seconds"></span>
+                                    </div>
+                                </li>
+                                <li><i class="fa fa-paw text-primary"></i> <b>Pets Allowed</b></li>
+                                <li>Yes</li>
+                                <li><i class="fa fa-child text-primary"></i> <b>Suitable for Kids Infants</b></li>
+                                <li>Yes</li>
+                                <button type="button" class="btn btn-dark mt-4 float-right moredetail">
+                                    <span>More Detail</span>
+                                    <i class="fa fa-angle-down"></i>
+                                </button>
+                            </ul>
+                        </div>
+                        <div class="packagelist_block mb-5" id="packagelist" style="display: none;">
+                            <ul class="packagelist list-unstyled mb-0 d-flex flex-wrap border-bottom-0">
+                                <li><i class="fa fa-child text-primary"></i> <b>Suitable for Kids under 12</b></li>
+                                <li>No</li>
+                                <li><i class="fa fa-child text-primary"></i> <b>Suitable for Kids between 13-16</b></li>
+                                <li>No</li>
+                                <li><i class="fa fa-check-circle text-primary"></i> <b>Tour Guide</b></li>
+                                <li>Included</li>
+                                <li><i class="fa fa-language text-primary"></i> <b>Language</b></li>
+                                <li>English</li>
+                                <li class="flex100"><i class="fa fa-home text-primary"></i> <b>Accommodation Type</b></li>
+                                <li class="flex100 p-0">
+                                    <ul class="list-unstyled mb-0 d-flex flex-wrap innerlist">
+                                        <li class="listcol-3">Beach</li>
+                                        <li class="listcol-3">3 nights</li>
+                                        <li class="listcol-3">2 days</li>
+                                    </ul>
+                                </li>
+                                <li class="flex100"><i class="fa fa-bus text-primary"></i> <b>Mode of Transportation</b></li>
+                                <li class="flex100 p-0">
+                                    <ul class="list-unstyled mb-0 d-flex flex-wrap innerlist">
+                                        <li class="listcol-4">Air</li>
+                                        <li class="listcol-4">Jaipur</li>
+                                        <li class="listcol-4">Udaipur</li>
+                                        <li class="listcol-4">2 Days</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-12 mb-4">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End GTC -->
+        <section class="itinery">
+            <div class="dotted-line"></div>
+            <div class="tube">
+                <span class="start">START</span>
+                <span class="end">END</span>
+            </div>
+            <div class="scrollmagic-pin-spacer" data-scrollmagic-pin-spacer>
+                <div class="scrollmagic-pin-spacer" data-scrollmagic-pin-spacer>
+                    <div id="car"></div>
+                </div>
+            </div>
+            <div class="fullbox">
+                <div class="leftbox placeImg">
+                    <img src="images/02hero.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="rightbox placeInfo">
+                    <div class="daynumber">Day 1</div>
+                    <div class="righttop">
+                        <h3>Features</h3>
+                        <p>Lorem ipsum dolor sit amet concateur un ricko La trube traviata non troppo bootstrap responsive templates.</p>
+                    </div>
+                    <ul class="rightinfo-list list-unstyled">
+                        <li>Tourist Attraction</li>
+                        <li>Best Buy of this Place</li>
+                        <li>Food Speciality</li>
+                        <li>Activity</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fullbox fullboxright">
+                <div class="leftbox placeImg">
+                    <img src="images/02hero.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="rightbox placeInfo">
+                    <div class="daynumber">Day 2</div>
+                    <div class="righttop">
+                        <h3>Features</h3>
+                        <p>Lorem ipsum dolor sit amet concateur un ricko La trube traviata non troppo bootstrap responsive templates.</p>
+                    </div>
+                    <ul class="rightinfo-list list-unstyled">
+                        <li>Tourist Attraction</li>
+                        <li>Best Buy of this Place</li>
+                        <li>Food Speciality</li>
+                        <li>Activity</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fullbox">
+                <div class="leftbox placeImg">
+                    <img src="images/02hero.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="rightbox placeInfo">
+                    <div class="daynumber">Day 3</div>
+                    <div class="righttop">
+                        <h3>Features</h3>
+                        <p>Lorem ipsum dolor sit amet concateur un ricko La trube traviata non troppo bootstrap responsive templates.</p>
+                    </div>
+                    <ul class="rightinfo-list list-unstyled">
+                        <li>Tourist Attraction</li>
+                        <li>Best Buy of this Place</li>
+                        <li>Food Speciality</li>
+                        <li>Activity</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-12">
+                        <div class="page-tabs">
+                            <ul class="nav text-uppercase nav-fill">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#itinerary">Itinerary</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#terms">Terms & Condition</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#refund">Refund Policy</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane show active" id="itinerary">
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                                </div>
+                                <div class="tab-pane" id="terms">
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+                                </div>
+                                <div class="tab-pane" id="refund">
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <div class="clearfix"></div>
+    <div class="jet-listing-grid__item section">
+        <footer class="footer position-relative" style="background-image: url(images/footer-bg.jpg);">
+            <div class="footer-cloud"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="about-travel">
+                            <h5 class="font-weight-bold text-uppercase">ABOUT US</h5>
+                            <p class="text-white py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Ut aliquip ex ea commodo consequat. psum dolor sit amet, consectetur</p>
+                            <a href="index.html"><img src="images/f-logo.png" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="important-links">
+                            <h5 class="font-weight-bold text-uppercase">IMPORTANT LINKS</h5>
+                            <div class="row py-3">
+                                <div class="col-12 col-sm-6 col-lg-6">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">home</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">about us</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">terms & conditions</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">privacy policy</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">contact us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-6">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">login</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">how it works</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">packages</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">register</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">gtc</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="contact-details">
+                            <h5 class="font-weight-bold text-uppercase">Contact us</h5>
+                            <ul class="list-inline py-3">
+                                <li class="list-inline-block-item position-relative">
+                                    <h6 class="text-uppercase text-white font-weight-bold">Address</h6>
+                                    <p class="text-white pb-2">63 Birch Street Granada Hills, CA 91344</p>
+                                </li>
+                                <li class="list-inline-block-item position-relative">
+                                    <h6 class="text-uppercase text-white font-weight-bold">call us</h6>
+                                    <p class="pb-2"><a href="tel:9887XXXXXX" class="text-white">+91-9887XXXXXX</a></p>
+                                </li>
+                                <li class="list-inline-block-item position-relative">
+                                    <h6 class="text-uppercase text-white font-weight-bold">email us</h6>
+                                    <p class="pb-2"><a href="mailto:yourwebsite@webine.com" class="text-white">yourwebsite@webine.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <p class="text-uppercase copyright">© Copyright 2019 TITANTRAVEL - All Right Reserved. </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- footer end -->
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/ScrollMagic.min.js"></script>
+    <script type="text/javascript">
+        
+        console.log($(window).height());
+
+        var controller = new ScrollMagic.Controller();
+        var tube = $(".tube").outerHeight();
+        var greyHgt = tube - 220;
+        $(window).on('resize', function(){
+            if($(window).height() > 392) 
+            { 
+                greyHgt = tube - 220;
+            }else if($(window).height() > 588){
+                greyHgt = tube - 350;
+            }else if($(window).height() > 784){
+                greyHgt = tube - 300;
+            }
+        });
+        // create a scene
+        var scene = new ScrollMagic.Scene({triggerElement: "#car", duration: greyHgt})
+        .setPin("#car") // pins the element for the the scene's duration
+        .addTo(controller); // assign the scene to the controller
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.moredetail').click(function(){
+                $('#packagelist').show();
+                $('.moredetail').hide();
+            });  
+
+            function makeTimer() {
+
+            //      var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");  
+                var endTime = new Date("29 April 2020 9:56:00 GMT+01:00");          
+                    endTime = (Date.parse(endTime) / 1000);
+
+                    var now = new Date();
+                    now = (Date.parse(now) / 1000);
+
+                    var timeLeft = endTime - now;
+
+                    var days = Math.floor(timeLeft / 86400); 
+                    var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+                    var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+                    var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+          
+                    if (hours < "10") { hours = "0" + hours; }
+                    if (minutes < "10") { minutes = "0" + minutes; }
+                    if (seconds < "10") { seconds = "0" + seconds; }
+
+                    $("#days").html(days + "");
+                    $("#hours").html(hours + "");
+                    $("#minutes").html(minutes + "");
+                    $("#seconds").html(seconds + "");       
+
+            }
+
+            setInterval(function() { makeTimer(); }, 1000);         
+        });
+    </script>
+</body>
+</html>

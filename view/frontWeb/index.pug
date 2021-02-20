@@ -1,0 +1,570 @@
+extends layouts/mainLayout.pug
+
+block content 
+    .root
+        .floating-icon
+            ul#navbarsocial.social-white.list-inline
+                li
+                    a.text-white(href='#')
+                        i.fa.fa-facebook(aria-hidden='true')
+                li
+                    a.text-white(href='#')
+                        i.fa.fa-twitter(aria-hidden='true')
+                li
+                    a.text-white(href='#')
+                        i.fa.fa-instagram(aria-hidden='true')
+                li
+                    a.text-white(href='#')
+                        i.fa.fa-youtube-play(aria-hidden='true')
+                li
+                    a.text-white(href='#')
+                        i.fa.fa-linkedin(aria-hidden='true')
+                li
+                    a.text-white(href='#')
+                        i.fa.fa-google-plus(aria-hidden='true')
+        .sections-wrapper.dsn-parent-slide.ui-nav-light
+            section.section-slider.dsn-active
+                .cover-bg.active-next-slider(data-image-src='images/sldier-1.jpg' data-overlay='4')
+                    img.img-src(width='100%' height='100%' src='images/sldier-1.jpg' alt='' srcset='images/sldier-1.jpg')
+                    .inner
+                        .project
+                        .project-info
+                            h3.subtitle
+                            .name-title
+                            h1.font-weight-bold
+                                span Travel The World
+            section.section-slider.section-slider-next
+                .cover-bg.active-next-slider(data-image-src='images/sldier-1.jpg' data-overlay='4')
+                    img.img-src(width='100%' height='100%' src='images/sldier-1.jpg' alt='' srcset='images/sldier-1.jpg')
+                    .inner
+                        .project
+                        .project-info
+                            h3.subtitle
+                            .name-title
+                            h1.font-weight-bold
+                                span Travel The World
+            footer.section-footer
+                .inner
+
+                    .dsn-grid-nav-box
+                        .boxnav-item.to-prev
+                            i.fa.fa-angle-left
+                        .boxnav-item.boxnav-item-progress
+                            .boxnav-progress
+                                span.progress-item
+                            .number
+                                span 01
+                            .boxnav-progress
+                                span.progress-item
+                        .boxnav-item.to-next(style='transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);')
+                            i.fa.fa-angle-right
+
+                    a#mouse-scroll(href='#getknow')
+                        div
+                            .mouse
+                                .mouse-in
+                            h6.text-white.pt-3 SCROLL
+
+            .dsn-nav-light
+            .popover-list-slid
+        .sections-wrapper.dsn-next
+    section#getknow.get-to-know.pb-0
+        .container-fluid
+            .row.justify-content-center
+                .col-12.col-lg-8.text-center
+                    h3.text-uppercase.font-weight-bold.position-relative.heading
+                    span.bg-white.mx-auto get to know
+                    p.pt-3
+                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            .owl-slider-know.mt-lg-4
+                .owl-carousel.owl-theme.px-lg-5
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-1.jpg')
+                                h4.text-uppercase Mauritius TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-2.jpg')
+                                h4.text-uppercase Europe TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-3.jpg')
+                                h4.text-uppercase Darjeeling TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-1.jpg')
+                                h4.text-uppercase Mauritius TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-2.jpg')
+                                h4.text-uppercase Europe TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-3.jpg')
+                                h4.text-uppercase Darjeeling TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-1.jpg')
+                                h4.text-uppercase Mauritius TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-2.jpg')
+                                h4.text-uppercase Europe TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-3.jpg')
+                                h4.text-uppercase Darjeeling TOUR
+                                p There are many tvariations of passages of Lorem
+                                .read-more-btn
+                                    a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+
+    #fullpage
+        #section1.cd-section
+            .floating-icon
+                ul#navbarsocial.social-dark.list-inline
+                    li
+                    a.text-white(href='#')
+                        i.fa.fa-facebook(aria-hidden='true')
+                    li
+                    a.text-white(href='#')
+                        i.fa.fa-twitter(aria-hidden='true')
+                    li
+                    a.text-white(href='#')
+                        i.fa.fa-instagram(aria-hidden='true')
+                    li
+                    a.text-white(href='#')
+                        i.fa.fa-youtube-play(aria-hidden='true')
+                    li
+                    a.text-white(href='#')
+                        i.fa.fa-linkedin(aria-hidden='true')
+                    li
+                    a.text-white(href='#')
+                        i.fa.fa-google-plus(aria-hidden='true')
+            nav#cd-vertical-nav
+                ul
+                    li
+                        a.active(href='#section1' data-number='1')
+                            span.cd-dot
+                    li
+                        a(href='#section2' data-number='2')
+                            span.cd-dot
+                    li
+                        a(href='#section3' data-number='3')
+                            span.cd-dot
+                    li
+                        a(href='#section4' data-number='4')
+                            span.cd-dot
+                    li
+                        a(href='#section5' data-number='5')
+                        span.cd-dot
+            a.cd-nav-trigger.cd-img-replace  Open navigation
+                span
+            section.culture-section.pb-0
+                .container
+                    .row
+                        .col-md-6.col-lg-7
+                            .culture-image.position-relative.card
+                                img.img-fluid(src='images/sldier-1.jpg')
+                        .col-md-6.col-lg-5
+                            .culture-content.rounded-circle.card
+                                .culture_inner
+                                    h3.text-white.text-capitalize.font-weight-bold Culture
+                                    p.text-white  In the land of a thousand cultures, every step is a different experience. Turkey is where endless curiosity meets its match. The only thing you have to do is to say &ldquo;merhaba&rdquo; to endless possibilities and start discovering them!
+
+                                    a.text-white.text-uppercase(href='')  Read more
+                                        i.fa.fa-angle-right(aria-hidden='true')
+
+        #section2.cd-section
+            .floating-icon
+                ul#navbarsocial.social-dark.list-inline
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-facebook(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-twitter(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-instagram(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-youtube-play(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-linkedin(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-google-plus(aria-hidden='true')
+            nav#cd-vertical-nav
+                ul
+                    li
+                        a(href='#section1' data-number='1')
+                            span.cd-dot
+                    li
+                        a.active(href='#section2' data-number='2')
+                            span.cd-dot
+                    li
+                        a(href='#section3' data-number='3')
+                            span.cd-dot
+                    li
+                        a(href='#section4' data-number='4')
+                            span.cd-dot
+                    li
+                        a(href='#section5' data-number='5')
+                            span.cd-dot
+            a.cd-nav-trigger.cd-img-replace  Open navigation
+                span
+            section.nature-section.pb-0
+                .container
+                    .row
+                        .col-md-6.col-lg-5.order-lg-1.order-2
+                            .culture-content.rounded-circle.nature-bg.card
+                                .culture_inner
+                                    h3.text-white.text-capitalize.font-weight-bold Nature
+                                    p.text-white  How would you like to take a deep breath in green forests? How about a refreshing dip into the many shades of turquoise? A mesmerizing harmony of green and blue is waiting for you in Turkey.
+
+                                    a.text-white.text-uppercase(href='')  Read more 
+                                        i.fa.fa-angle-right(aria-hidden='true')
+                        .col-md-6.col-lg-7.order-lg-2.order-1
+                            .culture-image.position-relative.card
+                                img.img-fluid(src='images/sldier-1.jpg')
+
+        
+        #section3.cd-section
+            .floating-icon
+                ul#navbarsocial.social-dark.list-inline
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-facebook(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-twitter(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-instagram(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-youtube-play(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-linkedin(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-google-plus(aria-hidden='true')
+            nav#cd-vertical-nav
+                ul
+                    li
+                        a(href='#section1' data-number='1')
+                            span.cd-dot
+                    li
+                        a(href='#section2' data-number='2')
+                            span.cd-dot
+                    li
+                        a.active(href='#section3' data-number='3')
+                            span.cd-dot
+                    li
+                        a(href='#section4' data-number='4')
+                            span.cd-dot
+                    li
+                        a(href='#section5' data-number='5')
+                            span.cd-dot
+            a.cd-nav-trigger.cd-img-replace  Open navigation
+                span
+            section.culture-section.pb-0
+                .container
+                    .row
+                        .col-md-6.col-lg-7
+                            .culture-image.position-relativeg.card
+                                img.img-fluid(src='images/sldier-1.jpg')
+                        .col-md-6.col-lg-5
+                            .culture-content.rounded-circle.history-bg.card
+                                .culture_inner
+                                    h3.text-white.text-capitalize.font-weight-bold History
+                                    p.text-white Located at the crossroads of multiple civilizations, Turkey has many stories to tell. Almost every street, every building has a tale to share. If you are looking for a trip back in time, then the ticket you&rsquo;ve been looking for is right here in Turkey.
+
+                                    a.text-white.text-uppercase(href='')   Read more 
+
+                                        i.fa.fa-angle-right(aria-hidden='true')
+
+        #section4.cd-section
+            .floating-icon
+                ul#navbarsocial.social-dark.list-inline
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-facebook(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-twitter(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-instagram(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-youtube-play(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-linkedin(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-google-plus(aria-hidden='true')
+            nav#cd-vertical-nav
+                ul
+                    li
+                        a(href='#section1' data-number='1')
+                            span.cd-dot
+                    li
+                        a(href='#section2' data-number='2')
+                            span.cd-dot
+                    li
+                        a(href='#section3' data-number='3')
+                            span.cd-dot
+                    li
+                        a.active(href='#section4' data-number='4')
+                            span.cd-dot
+                    li
+                        a(href='#section5' data-number='5')
+                            span.cd-dot
+            a.cd-nav-trigger.cd-img-replace   Open navigation
+
+                span
+            section.nature-section.pb-0
+                .container
+                    .row
+                        .col-md-6.col-lg-5.order-lg-1.order-2
+                            .culture-content.rounded-circle.wellness-bg.card
+                                .culture_inner
+                                    h3.text-white.text-capitalize.font-weight-bold Wellness
+                                    p.text-white There&rsquo;s nothing better than a relaxing day to refresh one&rsquo;s self. With its hot springs and hammams, Turkey will take care of your body and your soul. Rest, get in touch with yourself, and uplift your mood! A new you is waiting for you.
+
+                                    a.text-white.text-uppercase(href='')  Read more 
+
+                                        i.fa.fa-angle-right(aria-hidden='true')
+                        .col-md-6.col-lg-7.order-lg-2.order-1
+                            .culture-image.position-relative.card
+                                img.img-fluid(src='images/sldier-1.jpg')
+
+        #section5.cd-section
+            .floating-icon
+                ul#navbarsocial.social-dark.list-inline
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-facebook(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-twitter(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-instagram(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-youtube-play(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-linkedin(aria-hidden='true')
+                    li
+                        a.text-white(href='#')
+                            i.fa.fa-google-plus(aria-hidden='true')
+            nav#cd-vertical-nav
+                ul
+                    li
+                        a(href='#section1' data-number='1')
+                            span.cd-dot
+                    li
+                        a(href='#section2' data-number='2')
+                            span.cd-dot
+                    li
+                        a(href='#section3' data-number='3')
+                            span.cd-dot
+                    li
+                        a(href='#section4' data-number='4')
+                            span.cd-dot
+                    li
+                        a.active(href='#section5' data-number='5')
+                            span.cd-dot
+            a.cd-nav-trigger.cd-img-replace Open navigation
+                span
+            section.culture-section.pb-0
+                .container
+                    .row
+                        .col-md-6.col-lg-7
+                            .culture-image.position-relative.card
+                                img.img-fluid(src='images/sldier-1.jpg')
+                        .col-md-6.col-lg-5
+                            .culture-content.rounded-circle.castronomy-bg.card
+                                .culture_inner
+                                h3.text-white.text-capitalize.font-weight-bold Gastronomy
+                                p.text-white Located at the crossroads of multiple civilizations, Turkey has many stories to tell. Almost every street, every building has a tale to share. If you are looking for a trip back in time, then the ticket you&rsquo;ve been looking for is right here in Turkey.
+
+                                a.text-white.text-uppercase(href='')   Read more 
+
+                                    i.fa.fa-angle-right(aria-hidden='true')
+
+    section.get-to-know.select-destination
+        .container-fluid
+            .row.justify-content-center
+                .col-12.col-lg-12.text-center
+                    h3.text-uppercase.font-weight-bold.position-relative.heading
+                        span.mx-auto Select Your destination by mood
+                    p.w-75.m-auto Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+            .owl-slider-know.mt-lg-4
+                .owl-carousel.owl-theme.px-lg-5
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-1.jpg')
+                            h4.text-uppercase Mauritius TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-2.jpg')
+                            h4.text-uppercase Europe TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-3.jpg')
+                            h4.text-uppercase Darjeeling TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-1.jpg')
+                            h4.text-uppercase Mauritius TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-2.jpg')
+                            h4.text-uppercase Europe TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-3.jpg')
+                            h4.text-uppercase Darjeeling TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-1.jpg')
+                            h4.text-uppercase Mauritius TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')
+                                    | Read 
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-2.jpg')
+                            h4.text-uppercase Europe TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')  Read 
+
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')
+                    .item
+                        .packege-block.p-lg-4.p-2
+                            .clip-path-img
+                                img.img-fluid(src='images/owl-3.jpg')
+                            h4.text-uppercase Darjeeling TOUR
+                            p There are many tvariations of passages of Lorem
+                            .read-more-btn
+                                a.text-white(href='#')   Read 
+
+                                    br
+                                    i.fa.fa-angle-right(aria-hidden='true')

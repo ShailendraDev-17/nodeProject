@@ -1,0 +1,323 @@
+@media (max-width: 767px) {
+	.cd-section section {
+	    padding:0px !important;
+	}
+	.root .floating-icon {
+	    top: 30%;
+	}
+	.heading:before, .heading:after {
+	    width: 0;
+	}
+	.heading span {
+	    padding: 0 !important;
+	}
+	.travel-news h3 {
+	    font-size: 20px !important;
+	}
+	.read-more-btn a{
+		margin-top: -20px;
+	}
+	.culture-content h3 {
+	    font-size: 2.5rem;
+	}
+	.culture-content p{
+		font-size: 13px;
+    	line-height: 16px;
+	}
+	.culture-content a {
+	    font-size: 14px;
+		color: #000 !important;
+		max-width: 100%;
+	}
+	.gallery-content ul li {
+	    max-width: 100% !important;
+	    flex: 100% !important;
+	}
+	.gallery-content ul li:nth-child(odd):before{
+		top: 30px;
+		width: 278px !important;
+		height: 238px !important;
+	}
+	.gallery-content ul li p{
+		line-height: 18px;
+	    font-size: 14px;
+	}
+	.get-to-know h3 {
+	    font-size: 22px !important;
+	}
+	.about-travel {
+	   	padding: 50px 0 25px;
+	}
+	.gallery-content ul li h4 {
+	    font-size: 21px;
+	}
+	.about-travel a img {
+	    width: 60%;
+	}
+	.gallery-content ul li img {
+	    width: 100%;
+	    height: 200px;
+	}
+	.sections-wrapper .section-slider .cover-bg{
+		background-size: cover;
+	}
+	.root {
+	    overflow: hidden;
+	    height: 400px;
+	    margin-top: 70px;
+	}
+	.sections-wrapper .section-footer .dsn-grid-nav-box .boxnav-item-progress .number span, div#mouse-scroll h6 {
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	}
+	.sections-wrapper .section-footer .dsn-grid-nav-box .to-next i, .sections-wrapper .section-footer .dsn-grid-nav-box .to-prev i{
+		font-size: 21px;
+	}
+	#mouse-scroll {
+	    display: none;
+	}
+	.cd-section .culture-content h3 {
+	    left: 0;
+	}
+	.floating-icon {
+	    left: 5px;
+	    display: none;
+	}
+	.no-touch #cd-vertical-nav {
+	    right: 5px;
+	}
+	.root .name-title h1 {
+	    font-size: 50px !important;
+	}
+	.dsn-word-wrapper {
+	    top: 0;
+	    display: block;
+	}
+	.sections-wrapper .section-slider .project .project-info h1 {
+	    display: block;
+	    width: 100%;
+	}
+	.footer-cloud {
+	    height: 120px;
+	}
+	.cd-section .culture-content {
+	    background: transparent;
+	    width: 100% !important;
+	    height: 100% !important;
+	    display: block !important;
+	    margin: 0 !important;
+	}
+	.culture-content p {
+	    padding: 0;
+	    color: #000 !important;
+	    max-width: 100%;
+	    margin-left: 0;
+	}
+	.culture_inner {
+	    top: 0;
+    	max-width: 80%;
+    	padding: 0 10px;
+	}
+	.culture-content:after {
+	    content: "";
+	    position: absolute;
+	    width: 200px;
+	    height: 200px;
+	    top: -80%;
+	    border-radius: 50%;
+	}
+	#section1 .culture-content:after{
+		background: #b21236;
+		right: -15%;
+	}
+	#section2 .culture-content:after{
+		background-color: #f03812;
+		left: -15%;
+	}
+	#section3 .culture-content:after{
+		background: #fe8826;
+		right: -15%;
+	}
+	#section4 .culture-content:after{
+		background: #fbba14;
+		left: -15%;
+	}
+	#section5 .culture-content:after{
+		background: #2b9c9f;
+		right: -15%;
+	}
+	.cd-section {
+	    overflow: hidden;
+	    padding-bottom: 50px;
+	}
+	.culture-image img {
+	    clip-path: polygon(0 100%, 0px 0px, 100% 0px, 100% 70%);
+	}
+	.cd-section .container {
+	    padding: 0;
+	}
+	#section2 .culture_inner, #section4 .culture_inner{
+		margin-left: auto;
+	}
+	.heading {
+	    max-width: 100%;
+	}
+	.rightinfo li {
+	    width: 100%;
+	    float: none;
+	    padding: 1.5em 0em 1.5em 0em;
+	}
+	.rightinfo li:not(:last-child) {
+	    border-bottom: solid 1px #eee;
+	}
+	.main-timeline:before{
+        transform: translateX(0);
+        left: 15px;
+    }
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        width: 100%;
+        padding: 10px 10px 10px 25px;
+    }
+    .main-timeline .timeline:after,
+    .main-timeline .timeline:nth-child(even):after{
+        left: -10px;
+    }
+    .main-timeline .timeline-content {
+        padding: 100px 30px 30px;
+    }
+    .packagelist > li .innerlist > li {
+	    flex: 100%;
+	    max-width: 100%;
+	}
+	.packagelist > li .innerlist > li:not(:last-child) {
+	    border-right: 0;
+	    border-bottom: solid 1px #dfdfdf;
+	}
+}
+
+@media (max-width: 991px){
+	main.maincontent {
+	    margin-top: 70px !important;
+	}
+	.culture-content {
+	    margin-left: -80px;
+	    width: 350px !important;
+	    height: 350px !important;
+	}
+	.cd-section section {
+	    padding: 0 50px;
+	}
+	.culture-content p {
+	    font-size: 14px;
+	    padding: 15px 0;
+	}
+	.main-header {
+	    background-color: #fe8826;
+	    padding: 10px 0 !important;
+	}
+	.culture-image {
+		height: 300px;
+    	overflow: hidden;
+	}
+	.culture-image img {
+	    height: 100%;
+	    object-fit: cover;
+	}
+	#headerfix{
+	    transition: all 0.4s ease;
+	}
+	.read-more-btn a{
+		margin-top: -10px;
+	}
+	.dsn-word-wrapper{
+		top: 0;
+	}
+	.travel-news h3{
+		font-size: 30px;
+	}
+	.about-travel {
+	   	padding: 50px 0 25px;
+	}
+	.gallery-content ul li:nth-child(odd):before{
+		display: none;
+	}
+	.sections-wrapper .section-slider .project{
+		width: 100%;
+	}
+	.gallery-content ul li {
+	    max-width: 25%;
+    	flex: 25%
+	}
+}
+@media (max-width: 1024px){
+	.dotted-line {
+	    height: 93% !important;
+	}
+	.tube {
+	    left: 0;
+	    margin-left: 0;
+	}
+	.dotted-line {
+	    left: 2.15em !important;
+	}
+	#car{
+		left: 8px !important;
+	}
+	.fullbox .leftbox, .fullbox .rightbox {
+	    float: none;
+	    width: 100%;
+	}
+	.fullbox .daynumber {
+	    left: 0;
+	    right: 0;
+	    top: -50px !important;
+	    margin: 0 auto;
+	    top: 0;
+	}
+	.fullbox .placeImg {
+	    height: 300px;
+	    position: relative;
+	}
+	.fullbox .placeInfo {
+	    padding: 6em 3em 2em 7em;
+	}
+}
+@media (max-width: 1199px){
+	.heading {
+	    font-size: 25px;
+	    padding-bottom: 15px;
+	}
+	.container{
+		max-width: 850px;
+	}
+	.gallery-content ul li:nth-child(odd):before{
+		width: 468px;
+    	height: 139px;
+	}
+	.sections-wrapper .section-slider .project .project-info h1{
+		padding: 7.125vw 4.1875vw 9.125vw 1vw;
+	}
+	.sections-wrapper .section-footer .dsn-grid-nav-box{
+		margin-right: -38px;
+	}
+	.culture-content {
+	    width: 400px;
+	    height: 400px;
+	}
+    .main-header ul li a{
+    	font-size: 14px;
+    }
+    .main-header .navbar-brand {
+	    margin: 0 10px;
+	}
+    .main-header ul li {
+	    padding: 0 8px !important;
+	}
+	.culture-content h3 {
+	    font-size: 3rem;
+	}
+	.gallery-content ul li p {
+	    font-size: 14px;
+	}
+}

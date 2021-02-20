@@ -1,0 +1,78 @@
+extends layouts/mainLayout.pug
+block content 
+    .clearfix
+        main.maincontent(style='margin-top: 131px;')
+        section.whowearesec
+            .container
+            .row.justify-content-center
+                .col-12.col-lg-12.text-center.mb-5
+                    h3.text-uppercase.font-weight-bold.position-relative.heading
+                        span.bg-white.mx-auto We are Titan Travel
+            .row
+                .col-12.col-lg-3.col-md-6.mb-4.mb-lg-0
+                    .single-intro
+                        .thumb.mb-4
+                            img.img-fluid(src='images/9.png' alt='img')
+                        h5.intro-title.position-relative Private Transport
+                        p
+                            | Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .
+                .col-12.col-lg-3.col-md-6.mb-4.mb-lg-0
+                    .single-intro
+                        .thumb.mb-4
+                            img.img-fluid(src='images/10.png' alt='img')
+                        h5.intro-title.position-relative Diverse Destinations
+                        p
+                            | Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .
+                .col-12.col-lg-3.col-md-6.mb-4.mb-md-0
+                    .single-intro
+                        .thumb.mb-4
+                            img.img-fluid(src='images/11.png' alt='img')
+                        h5.intro-title.position-relative Great Hotels
+                        p
+                            | Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .
+                .col-12.col-lg-3.col-md-6
+                    .single-intro
+                        .thumb.mb-4
+                            img.img-fluid(src='images/12.png' alt='img')
+                        h5.intro-title.position-relative Fast Booking
+                        p
+                            | Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .
+    // End Who We are
+    // Testimonial
+    section.testimonailsec(style='background-image: url(images/footer-bg.jpg);')
+        .container
+            .row.justify-content-center
+                .col-12.col-lg-8.text-center
+                    h1.text-white.mb-5 Happy Clients
+                    #testimonial.owl-carousel.owl-theme
+                        .item
+                            .test-single-item.text-white
+                                .test-icon
+                                    i.fa.fa-quote-left.fa-5x.mb-4
+                                .test-content
+                                    p.lead.font-italic.text-white
+                                        | Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.&gt;Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                        .item
+                            .test-single-item.text-white
+                                .test-icon
+                                    i.fa.fa-quote-left.fa-5x.mb-4
+                                .test-content
+                                    p.lead.font-italic.text-white
+                                        | Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.&gt;Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+    // End Testimonial
+    // About
+    section.aboutsec
+        .container
+            .row
+                .col-12.col-lg-5.align-self-center.mb-4.mb-lg-0
+                    .section-title.mb-lg-0
+                        h1.title
+                            | Lets Go Travel 
+                            br
+                            |  with Us
+                        p
+                            | Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo, quis tempor ligula. Quisque quis pharetra felis. Ut quis consequat orci, at consequat felis. Suspendisse auctor laoreet placerat. Nam et risus non lacus dignissim lacinia sit amet nec eros. Nulla vel urna quis libero pharetra varius. Nulla tellus nunc, malesuada at scelerisque eget, cursus at eros. Maecenas pellentesque lacus quis erat eleifend sagittis. Sed vel maximus ante, quis mattis neque. Nullam dapibus erat sed nulla cursus accumsan. Nulla volutpat libero lacinia venenatis sodales. Ut in pellentesque.
+                .col-lg-5.offset-lg-2
+                    .thumb.about-section-right-thumb.position-relative
+                        img.img-fluid(src='images/about1.png' alt='img')
+    // End About

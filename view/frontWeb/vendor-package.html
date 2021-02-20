@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html class="no-touch">
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Titan Travel</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Carousel CSS -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+
+    <!-- slider css -->
+    <link href="css/main-slider.css" rel="stylesheet" />
+
+    <!-- fullpage css -->
+    <link rel='stylesheet' href='css/fullpage.css'>
+
+    <!-- Jquery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    	
+    <!-- Main Css -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- responsive Css -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- icon csss -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/select2.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="main-header py-3 py-md-0 header-dark fixed-top">
+        <div class="container">
+            <div class="top-bar">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <a class="navbar-brand mr-0 d-lg-none d-block" href="index.html"><img src="images/f-logo.png" alt="" class="img-fluid" /></a>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto align-items-lg-center">
+                            <li class="nav-item px-3"><a href="#" class="nav-link active text-white">Home</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">About Us</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">Packages</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">gtc</a></li>
+                            <li class="nav-item px-3 d-lg-block d-none"><a class="navbar-brand mr-0" href="index.html"><img src="images/logo-icon.png" alt="" class="img-fluid" /></a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">Contact Us</a></li>
+                            <li class="nav-item px-3"><a href="#" class="nav-link text-white">How it works</a></li>
+                            <li class="nav-item px-3 userlogin dropdown">
+                                <a href="#" class="nav-link text-white p-0" data-toggle="dropdown">
+                                   <img src="images/user.jpg" alt="" class="img-fluid ">
+                                </a>
+                                <ul class="dropdown-menu border-0 p-0 shadow rounded-0">
+                                    <li><a href="#" class="active">Profile</a></li>
+                                    <li><a href="#">Transactions</a></li>
+                                    <li><a href="#">Booking</a></li>
+                                    <li><a href="#">Payment Method</a></li>
+                                    <li><a href="#">Setting</a></li>
+                                    <li><a href="#">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <div class="clearfix"></div>
+    <main class="maincontent" style="margin-top: 131px;">
+        <section class="loginsec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+                        <div class="sidebar-profile p-4 mb-4 shadow text-center rounded">
+                            <div class="profile-image mb-3">
+                                <img src="images/user.jpg" alt="" class="img-fluid  avatar-medium">
+                            </div>
+                            <div class="usertitle">
+                                <a href="#"><h4 class="mb-0 text-white">Kevin Bott</h4></a>
+                            </div>
+                        </div>
+                        <div class="accountside_bar bg-white">
+                            <ul class="list-unstyled mb-0 navlist shadow">
+                                <li>
+                                    <a href="vendor-profile.html">
+                                        <i class="fa fa-user-circle-o mr-1"></i>
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="change-password.html">
+                                        <i class="fa fa-cog mr-1"></i>
+                                        <span>Change Password</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="vendor-package.html" class="active">
+                                        <i class="fa fa-calendar-check-o mr-1"></i>
+                                        <span>Package</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="vendor-booking.html">
+                                        <i class="fa fa-calendar-check-o mr-1"></i>
+                                        <span>Booking</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-sign-out mr-1"></i>
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <form class="profileform">
+                            <h3 class="mb-4">Add package</h3>
+                            <div class="p-4 shadow">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12">
+                                        <div class="form-group">
+                                          <label class="text-dark">Tour Package Title</label>
+                                          <input type="text" name="" class="form-control ">
+                                        </div>
+                                    </div>
+								</div>
+								<div class="row">
+                                    <div class="col-12 col-sm-4">
+                                        <div class="form-group">
+                                            <label class="text-dark">Tour Type</label>
+                                            <select class="form-control select2-single" name="tour_type">
+                                                <option value="">Select</option>
+                                                <option value="1">Vacation Packages</option>
+                                                <option value="2">Premium Packages</option>
+                                                <option value="3">Adventure Packages</option>
+                                                <option value="4">Sports and Entertainment Packages</option>
+                                                <option value="5">Cruise Packages</option>
+                                                <option value="6">Destination Wedding / Parties</option>
+                                            </select>
+                                        </div>
+                                    </div>
+									<div class="col-12 col-sm-4">
+                                        <div class="form-group">
+                                          <label class="text-dark">Price</label>
+                                          <input type="text" name="" class="form-control ">
+                                        </div>
+                                    </div>
+									<div class="col-12 col-sm-4">
+                                        <div class="form-group">
+                                          <label class="text-dark">Expire Date</label>
+                                          <input id="datepicker" type="text" name="" class="form-control ">
+                                        </div>
+                                    </div>
+								</div>
+								<div class="row">
+                                    <div class="col-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label class="text-dark">Destination Selection</label>
+                                            <div class="row">
+                                                <div class="col-12 col-md-11">
+													<div class="row">
+														<div class="col-12 col-md-4">
+															<select class="form-control country select2-single">
+																<option value="">Select Country</option>
+																<option value="1">Afghanistan</option>
+															</select>
+														</div>
+														<div class="col-12 col-md-4">
+															<select class="form-control country select2-single">
+																<option value="">Select State</option>
+																<option value="1">Afghanistan</option>
+															</select>
+														</div>
+														<div class="col-12 col-md-4">
+															<select class="form-control city select2-single" name="destination_selection_city[]">
+																<option value="">Select City</option>
+															</select>
+														</div>
+														
+													</div>
+												</div>
+												
+												<div class="col-12 col-md-1">
+													<button type="button" id="addMoreDestibation" class="btn btnprimary  btn-block" style="padding: 12px 0px !important;"><i class="fa fa-plus"></i></button>
+												</div>
+												
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+								
+								
+								<div id="destinationData">
+								</div>
+								
+								
+								
+								
+								<div class="row">
+                                    <div class="col-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label class="text-dark">Accommodation Type</label>
+                                            <div class="row">
+                                                <div class="col-12 col-md-11">
+													<div class="row">
+														<div class="col-12 col-md-6">
+															<select class="form-control  accommodation_type select2-single" name="accommodation_type[]">
+																<option value="">Select</option>
+																<option value="1">Beach</option>
+																<option value="2">Resorts</option>
+																<option value="3">Camping</option>
+															</select>
+														</div>
+														<div class="col-12 col-md-6">
+															<input type="text" name="" class="form-control " placeholder="Enter period of stay">
+														</div>
+													</div>
+												</div>
+												
+												<div class="col-12 col-md-1">
+													<button type="button" id="addMoreAccommodation" class="btn btnprimary  btn-block" style="padding: 12px 0px !important;"><i class="fa fa-plus"></i></button>
+												</div>
+												
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+                                
+                                <div id="accommodationData">
+								</div>
+
+								<div class="row">
+									<div class="col-12 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="text-dark">Pets Allowed</label>
+                                            <div class="pets">
+                                                <label class="radio-container mb-0">Yes
+                                                    <input type="radio" name="pets" checked>
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="radio-container mb-0">No
+                                                    <input type="radio" name="pets">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="text-dark">Suitable for Kids Infants</label>
+                                            <div class="pets">
+                                                <label class="radio-container mb-0">Yes
+                                                    <input type="radio" name="Suitable" checked>
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="radio-container mb-0">No
+                                                    <input type="radio" name="Suitable">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="text-dark">Suitable for Kids under 12</label>
+                                            <div class="pets">
+                                                <label class="radio-container mb-0">Yes
+                                                    <input type="radio" name="under12">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="radio-container mb-0">No
+                                                    <input type="radio" name="under12" checked>
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="text-dark">Suitable for Kids between 13-16</label>
+                                            <div class="pets">
+                                                <label class="radio-container mb-0">Yes
+                                                    <input type="radio" name="between13">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="radio-container mb-0">No
+                                                    <input type="radio" name="between13" checked>
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+								<div class="row">
+									<div class="col-12 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="text-dark">Tour Guide</label>
+                                            <div class="guide pt-3">
+                                                <label class="radio-container mb-0">Included
+                                                    <input type="radio" name="tourGuide" checked value="include">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="radio-container mb-0">Excluded
+                                                    <input type="radio" name="tourGuide" value="notInclude">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="col-12 col-sm-6 LanguageSection">
+                                        <div class="form-group">
+                                          <label class="text-dark">Language</label>
+                                          <input type="text" name="" class="form-control ">
+                                        </div>
+                                    </div>
+								</div>
+								
+								
+								<div class="row">
+                                    <div class="col-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label class="text-dark">Mode of Transportation</label>
+                                            <div class="row">
+                                                <div class="col-12 col-md-11">
+													<div class="row">
+														<div class="col-12 col-md-3">
+															<select class="form-control  accommodation_type select2-single" name="accommodation_type[]">
+																<option value="">Select</option>
+																<option value="1">Air</option>
+																<option value="2">Land</option>
+																<option value="3">Public</option>
+																<option value="4">Private Vehicles</option>
+																<option value="5">Helicopters</option>
+																<option value="6">Ferry or Yachts</option>
+															</select>
+														</div>
+														<div class="col-12 col-md-3">
+															<select class="form-control  accommodation_type select2-single" name="accommodation_type[]">
+																<option value="">From City</option>
+															</select>
+														</div>
+														<div class="col-12 col-md-3">
+															<select class="form-control  accommodation_type select2-single" name="accommodation_type[]">
+																<option value="">To City</option>
+															</select>
+														</div>														
+														<div class="col-12 col-md-3">
+															<input type="text" name="" class="form-control " placeholder="Enter period of stay">
+														</div>
+													</div>
+												</div>
+												
+												<div class="col-12 col-md-1">
+													<button type="button" id="addMoreTransportation" class="btn btnprimary  btn-block" style="padding: 12px 0px !important;"><i class="fa fa-plus"></i></button>
+												</div>
+												
+                                            </div>
+                                        </div>
+                                    </div>
+								</div>
+                                
+                                <div id="transportationData">
+								</div>
+
+								<div class="row">
+                                    <div class="col-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label class="text-dark">Total number of days</label>
+                                            <select class="form-control select2-single" name="total_number_of_days" id="numberOfDays">
+                                                <option value="">Select</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="numberOfDaysData">
+
+
+                                </div>
+
+
+                                
+                                
+
+
+
+
+                                <div class="row">
+                                    <div class="col-12 col-sm-12">
+                                        <div class="form-group">
+                                          <label class="text-dark">Special Instructions</label>
+                                          <textarea type="text" name="" class="form-control "></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12">
+                                        <div class="save-btn text-right">
+                                            
+                                            <button type="submit" class="btn btnprimary text-white px-3 text-uppercase ">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <div class="jet-listing-grid__item section">
+        <footer class="footer position-relative" style="background-image: url(images/footer-bg.jpg);">
+            <div class="footer-cloud"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="about-travel">
+                            <h5 class="font-weight-bold text-uppercase">ABOUT US</h5>
+                            <p class="text-white py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Ut aliquip ex ea commodo consequat. psum dolor sit amet, consectetur</p>
+                            <a href="index.html"><img src="images/f-logo.png" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="important-links">
+                            <h5 class="font-weight-bold text-uppercase">IMPORTANT LINKS</h5>
+                            <div class="row py-3">
+                                <div class="col-12 col-sm-6 col-lg-6">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">home</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">about us</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">terms & conditions</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">privacy policy</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">contact us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-6">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">login</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">how it works</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">packages</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">register</a></li>
+                                        <li class="list-inline-block-item"><a href="#" class="text-white text-uppercase">gtc</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="contact-details">
+                            <h5 class="font-weight-bold text-uppercase">Contact us</h5>
+                            <ul class="list-inline py-3">
+                                <li class="list-inline-block-item position-relative">
+                                    <h6 class="text-uppercase text-white font-weight-bold">Address</h6>
+                                    <p class="text-white pb-2">63 Birch Street Granada Hills, CA 91344</p>
+                                </li>
+                                <li class="list-inline-block-item position-relative">
+                                    <h6 class="text-uppercase text-white font-weight-bold">call us</h6>
+                                    <p class="pb-2"><a href="tel:9887XXXXXX" class="text-white">+91-9887XXXXXX</a></p>
+                                </li>
+                                <li class="list-inline-block-item position-relative">
+                                    <h6 class="text-uppercase text-white font-weight-bold">email us</h6>
+                                    <p class="pb-2"><a href="mailto:yourwebsite@webine.com" class="text-white">yourwebsite@webine.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <p class="text-uppercase copyright">© Copyright 2019 TITANTRAVEL - All Right Reserved. </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- footer end -->
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+          $( "#datepicker" ).datepicker();
+        });
+		$( ".select2-single, .select2-multiple" ).select2( {
+			} );
+    </script>
+	
+	<script type="text/javascript">
+		$("#addMoreDestibation").click(function() {
+			var NewDestination = '<div class="row"><div class="col-12 col-sm-12"><div class="form-group"><div class="row"><div class="col-12 col-md-11"><div class="row"><div class="col-12 col-md-4"><select class="form-control select2-single country"><option value="">Select Country</option><option value="1">Afghanistan</option></select></div><div class="col-12 col-md-4"><select class="form-control select2-single country"><option value="">Select State</option><option value="1">Afghanistan</option></select></div><div class="col-12 col-md-4"><select class="form-control select2-single city " name="destination_selection_city[]"><option value="">Select City</option></select></div></div></div><div class="col-12 col-md-1"><button type="button" id="addMoreDestibation" class="btn btnprimary  btn-block" style="padding: 12px 0px !important;"><i class="fa fa-minus"></i></button></div></div></div></div></div>';
+			$("#destinationData").append(NewDestination);
+		});
+
+
+
+	    $("#addMoreAccommodation").click(function() {
+	        var NewAccommodation = '<div class="row"><div class="col-12 col-sm-12"><div class="form-group"><div class="row"><div class="col-12 col-md-11"><div class="row"><div class="col-12 col-md-6"><select class="form-control  accommodation_type" name="accommodation_type[]"><option value="">Select</option><option value="1">Beach</option><option value="2">Resorts</option><option value="3">Camping</option></select></div><div class="col-12 col-md-6"><input type="text" name="" class="form-control " placeholder="Enter period of stay"></div></div></div><div class="col-12 col-md-1"><button type="button" id="addMoreAccommodation" class="btn btnprimary  btn-block" style="padding: 12px 0px !important;"><i class="fa fa-minus"></i></button></div></div></div></div></div>';
+			$("#accommodationData").append(NewAccommodation);
+		});
+
+	    $('input:radio[name="tourGuide"]').change(
+	    function(){
+	        if ($(this).is(':checked') && $(this).val() == 'include') {
+	            $(".LanguageSection").show();
+	        }
+	        else {
+	            $(".LanguageSection").hide();
+	        }
+	    });
+
+
+	    $("#addMoreTransportation").click(function() {
+	        var NewTransportation = '<div class="row"><div class="col-12 col-sm-12"><div class="form-group"><div class="row"><div class="col-12 col-md-11"><div class="row"><div class="col-12 col-md-3"><select class="form-control  accommodation_type" name="accommodation_type[]"><option value="">Select</option></select></div><div class="col-12 col-md-3"><select class="form-control  accommodation_type" name="accommodation_type[]"><option value="">From City</option></select></div><div class="col-12 col-md-3"><select class="form-control  accommodation_type" name="accommodation_type[]"><option value="">To City</option></select></div><div class="col-12 col-md-3"><input type="text" name="" class="form-control " placeholder="Enter period of stay"></div></div></div><div class="col-12 col-md-1"><button type="button" id="addMoreTransportation" class="btn btnprimary  btn-block" style="padding: 12px 0px !important;"><i class="fa fa-minus"></i></button></div></div></div></div></div>';
+			$("#transportationData").append(NewTransportation);
+		});
+
+	    $("#numberOfDays").change(function() {
+	        var numberOfDaysVal = $(this).val();
+	        var startNum;
+	        var daysData = '';
+	        var newNum;
+	        for(startNum = 0; startNum < numberOfDaysVal; startNum++) {
+	            newNum = startNum+1;
+	            daysData += '<div class="row"><div class="col-12 col-sm-12"><div class="row"> <div class="col-12 col-md-4"><label class="text-dark">Title (Day '+newNum+') </label><input type="text" name="" class="form-control " /></div><div class="col-12 col-md-4"><label class="text-dark">Image (Day '+newNum+') </label><input type="file" name="" class="form-control " /></div> <div class="col-12 col-md-4"><label class="text-dark">Features (Day '+newNum+') </label><input type="text" name="" class="form-control " /></div></div><div class="row mt-4 mb-4"><div class="col-12 col-md-12"><label class="text-dark">Short Details (Day '+newNum+')</label><textarea class="form-control"></textarea></div></div></div></div>';
+	        }
+
+	        $("#numberOfDaysData").html(daysData);
+	    });
+	</script>
+</body>
+</html>
