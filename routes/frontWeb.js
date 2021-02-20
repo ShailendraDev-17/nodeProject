@@ -20,6 +20,10 @@ router.get('/register',(req,res,next)=>{
     res.render('register.pug',{pageTitle:"Register"});
 })
 
+router.get('/forget-password',(req,res,next)=>{
+    res.render('forget-password.pug',{pageTitle:"Forget Password"});
+})
+
 // for post method
 
 // router.post('/',(req,res,next)=>{

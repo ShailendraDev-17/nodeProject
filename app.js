@@ -11,4 +11,4 @@ const { urlencoded } = require('body-parser');
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static(path.join(__dirname,'public')));
 app.use('/',frontRoutes);
-app.listen(2000);
+app.listen(1000);
